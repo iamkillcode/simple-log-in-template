@@ -1,12 +1,31 @@
 .cardStyle-1 {
     width: 16rem;
-    height: 14rem;
+    height: 16rem;
+}
+
+.cardStyle-2 {
+    width: 16rem;
+    height: 16rem;
 }
 
 .form-card {
-    display: flex;
     /* width: 25%; */
     align-items: center;
-    margin: 80px;
+    /* margin: 80px; */
 
+}
+
+.container {
+    display: flex;
+    margin: 5px;
+    padding: 2px;
+    justify-content: space-between;
+
+}
+
+.container {
+justify-content: center;}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
