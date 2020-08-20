@@ -1,0 +1,33 @@
+.cardStyle-1 {
+    width: 16rem;
+    height: 16rem;
+}
+
+#error {
+    color: red;
+}
+
+.cardStyle-2 {
+    width: 16rem;
+    height: 16rem;
+}
+
+.form-card {
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    margin: 8% auto 0;
+    padding: 2px;
+    justify-content: space-between;
+
+}
+
+.container {
+justify-content: center;}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

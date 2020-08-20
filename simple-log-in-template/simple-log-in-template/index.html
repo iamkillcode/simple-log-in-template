@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Log In | Sign Up</title>
+</head>
+<body>
+
+<div class="container">
+    <!-- Log In -->
+
+        <div class="container-1 card  cardStyle-1 form-card">
+
+
+                    <div>
+                        <div><p class="logIn">Log In</p></div>
+                    </div>
+
+                    <div id="error"></div>
+
+
+                <form id="form" name="form" action="/Projects/simple-log-in-template/validate.html" method="GET">
+                    
+
+                    <div class="form-group">
+                        <input type="email" id="email" name= "email" placeholder="Email Address">
+                    </div>
+            
+                    <div class="form-group">
+                        <input class=" "  type="password" id="password" name= "password" placeholder="Password">
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary" value="Submit">Log In</button>
+                    </div>
+                    
+                    <label for="checkbox">
+                    <input type="checkbox" checked="checked" name="remember-me"> Remember me
+                    </label>
+                </form>
+        </div>
+    
+    
+        <div class="container-1 card cardStyle-2 form-card">
+
+                <div>
+                    <div><p class="signUp">Sign Up</p></div>
+                </div>
+
+                <div id="error2"></div>    
+
+    
+                <div>
+                    <form id="regForm" action="/Projects/simple-log-in-template/validate.html" method="GET">
+                        <div class="form-group">
+                            <input type="text" id="username" name="username" placeholder="Username" required>
+                        </div>
+    
+                        <div class="form-group">
+                            <input type="email" id="address" name="address" placeholder="Email Address" required>
+                        </div>
+    
+                        <div class="form-group">
+                            
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+                        </div>
+    
+                        <div>
+                            <button type="submit" class="btn btn-primary" value="Submit"> Sign Up</button>
+                        </div>    
+                    
+    
+                    </form>
+                </div>
+        </div>
+</div>
+   
+
+
+    <script defer src="app.js"></script>
+</body>
+</html>
